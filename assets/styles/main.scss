@@ -1,0 +1,27 @@
+
+@import '~normalize-scss/sass/_normalize';
+@import "intrinsic";
+@import "focuspoint";
+
+@include normalize(); /* normalize-scss*/
+
+.bg-lazy,
+.image-lazy {
+    transition: opacity 0.3s ease;
+    opacity: 0;
+
+    &.is-lazy-loaded {
+        opacity: 1;
+    }
+
+}
+
+.focuspoint--custom {
+	height: 300px;
+}
+
+.focuspoint--custom-bg {
+	height: 400px;
+	background-position: 40% 40%;
+}
+

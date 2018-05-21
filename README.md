@@ -1,1 +1,4 @@
-# vue-image-lazy
+# lazyload
+
+Basic Nav Canvas in Vue
+
